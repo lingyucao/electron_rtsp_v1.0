@@ -1,0 +1,21 @@
+{
+  "name": "rtspapp",
+  "version": "1.0.0",
+  "description": "rtspapp",
+  "productName": "rtspapp",
+  "author": "daxiong",
+  "license": "rtspapp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+	"build":"electron-packager . app --win --out=../builds  --icon=./images/48.ico  --arch=x64 --download.mirrorOptions.mirror=https://npm.taobao.org/mirrors/electron/ --electron-version=2.0.1 --overwrite --ignore=(.git)"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.2.0",
+	"ws": "^7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+	"ws": "^7.0.0"
+  }
+}
