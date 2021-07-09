@@ -11,5 +11,7 @@ builds //应用
 
 #命令行
 npm install
+
 npm start
+
 npm run build
